@@ -2,7 +2,7 @@
  *
  * Created by: Isaac Ip
  * Created on: Sep 2025
- * This program ...
+ * This program gets the current temperature, in K.
 */
 
 basic.clearScreen()
