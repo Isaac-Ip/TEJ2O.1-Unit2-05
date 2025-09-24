@@ -15,5 +15,6 @@ while True:
     if button_a.is_pressed():
         temperatureInCelsius = temperature()
         temperatureInKelvin = round(temperatureInKelvin + 273.15)
+        display.clear()
         display.show("The temperature is:" + temperatureInKelvin + "K.")
         display.show(Image.HAPPY)
